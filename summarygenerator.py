@@ -47,10 +47,10 @@ if st.button("Summarize") and video_url:
         video_path = download_video(video_url)
         audio_path = extract_audio(video_path)
         
-       text = get_subtitles(video_url)
-       if text is None or text.strip() == "":
-           st.warning("No subtitles available. Transcribing audio...")
-           text = transcribe_audio(audio_path)
+        text = get_subtitles(video_url)
+        if text is None or text.strip() == "":
+            st.warning("No subtitles available. Transcribing audio...")
+            text = transcribe_audio(audio_path)
 
         
         summary = generate_summary(text)
