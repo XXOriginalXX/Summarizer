@@ -1,1 +1,8 @@
+streamlit
 pytube
+whisper
+requests
+youtube-transcript-api
+moviepy
+torch
+ffmpeg-python
