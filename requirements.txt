@@ -1,8 +1,6 @@
-streamlit
 pytube
 whisper
 requests
+streamlit
 youtube-transcript-api
 moviepy
-torch
-ffmpeg-python
