@@ -12,7 +12,7 @@ This is a simple yet powerful **YouTube Video Summarizer App** built using **Str
 - 🧠 Summarize content using Hugging Face’s BART model
 - 🖼️ Simple, interactive UI with Streamlit
 
----
+--
 
 ## 🛠️ Tech Stack
 
